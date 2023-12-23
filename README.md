@@ -55,4 +55,98 @@
     </footer>
 </body>
 
-</html>
+</html>                                                        
+
+
+
+
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Hero section styles */
+.hero-section {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-text h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Featured section styles */
+.featured-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.featured-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.featured-titles {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.title-card {
+    margin: 10px;
+}
+
+.title-card img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
